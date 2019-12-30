@@ -1,0 +1,236 @@
+.login-block{
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding : 50px 0;
+}
+.banner-sec{background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+.container{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+.carousel-inner{border-radius:0 10px 10px 0;}
+.carousel-caption{text-align:left; left:5%;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+.login-sec .copy-text i{color:#FEB58A;}
+.login-sec .copy-text a{color:#E36262;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #DE6262;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#FEB58A; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: #DE6262; color:#fff; font-weight:600;}
+.banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+.banner-text h2{color:#fff; font-weight:600;}
+.banner-text h2:after{content:" "; width:100px; height:5px; background:#FFF; display:block; margin-top:20px; border-radius:3px;}
+.banner-text p{color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.main {
+  width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+div.horizontal {
+  width: 100%;
+  height: 10px;
+  background: #2b5582;
+}
+
+svg {
+  padding: 18px 0px 0px 40px;
+}
+
+.applicant-detail {
+    /* width: 98%; */
+    background: #f9f9f9;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.summary {
+  width: 18%;
+background: #56c5b6;
+margin: 30px auto;
+text-align: center;
+height: 45px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.loan-summary {
+  padding: 0px 0px 0px 0px;
+font-size: 25px;
+color: #fff;
+position: relative;
+top: 5px;
+}
+
+.head-loan {
+  background: #2b5582;
+color: #fff;
+text-align: center;
+font-size: 20px;
+}
+
+.rupee {
+  height: 70px;
+text-align: center;
+color: #2b5582;
+font-size: 30px;
+}
+
+.details-loan > p {
+  font-size: 22px;
+}
+p {
+  color: #041522;
+  font-size: 22px;
+}
+
+.signature {
+  height: 60px;
+  /* width: 90%; */
+  margin: 57px auto;
+  background: #f9f9f9;
+  clear: both;
+}
+
+.sign{
+  padding: 0px 0px 0px 10px;
+    /* padding: 10px; */
+    position: relative;
+    top: 20px;
+    color: #2b5582;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.address {
+  /* width: 90%; */
+margin: -30px auto;
+}
+.address > p {
+  color: #2b5582;
+  font-size: 24px;
+}
+
+.yt64 {
+  /* width: 90%; */
+background: #2b5582;
+height: 6px;
+clear: both;
+margin: 50px auto;
+
+}
+
+.uy78 > p {
+  color: #2b5582;
+  font-size: 24px;
+}
+
+.rt43 {
+  padding: 6px 40px 6px 40px;
+    color: #2b5582;
+    background-color: #f0f0f0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.terms {
+  clear: both;
+    background: #56c5b6;
+    margin-top: 40px;
+    padding: 15px 0px 6px 10px;
+}
+
+.terms > span {
+  color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.hgj876 {
+  width: 100%;
+height: auto;
+background: #f9f9f9;
+border: 1px solid #a6aeb6;
+}
+
+.hgj876 > thead > tr > td {
+  border: 1px solid #a6aeb6;
+  width: 50%;
+}
+
+.ejh65 {
+  clear: both;
+    margin-top: 30px;
+}
+.cat43 {
+  font-size: 26px;
+    font-weight: 700;
+}
+.su78 {
+  margin: 10px 0px 30px 0px;
+font-size: 25px;
+}
+.foot82 {
+  margin-top: -30px;
+width: 2%;
+}
+.vl {
+  border-left: 10px solid #56c5b6;
+  height: 105px;
+}
+.dvh98 {
+  width: 98%;
+float: right;
+    margin-top: -105px;
+}
+
+.sn434n {
+  border: 1px solid #a6aeb6;
+    margin-top: 30px;
+}
+
+.l32l {
+  width: 50%;
+float: left;
+margin-top: 30px;
+}
+
+.l32l > span {
+  font-size: 24px;
+}
+
+.l32l > span > strong {
+  color: #1363c3;
+text-decoration: line-through;
+}
+
+.r43r {
+  width: 50%;
+float: right;
+font-size: 24px;
+margin-top: 30px;
+text-align: right;
+padding: 0px 100px 0px 0px;
+}
+
+.r43r > span {
+  color: #1363c3;
+text-decoration: line-through;
+}

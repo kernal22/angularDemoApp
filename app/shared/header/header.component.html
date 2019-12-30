@@ -1,0 +1,53 @@
+<header id="home">
+        <div class="container">
+            <div class="header d-lg-flex justify-content-between align-items-center py-sm-3 py-2 px-sm-2 px-1">
+                <!-- logo -->
+                <div id="logo">
+                    <h1><a href="index.html">Intense</a></h1>
+                </div>
+                <!-- //logo -->
+                <!-- nav -->
+                <div class="nav_w3ls ml-lg-5">
+                    <nav>
+                        <label for="drop" class="toggle">Menu</label>
+                        <input type="checkbox" id="drop">
+                        <ul class="menu">
+                          <li *ngFor="let menu of menus">
+                            <ng-container *ngIf="menu.type=='link'">
+                              <a [routerLink]="menu.path" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{menu.name}}</a>
+                            </ng-container>
+                            <ng-container *ngIf="menu.type=='sub'">
+                              <label for="drop-2" class="toggle toogle-2">{{menu.name}}<span class="fa fa-angle-down" aria-hidden="true"></span>
+                              </label>
+                              <a href="{{menu.path}}">{{menu.name}} <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                              <input type="checkbox" id="drop-2">
+                              <ul>
+                                  <li *ngFor="let child of menu.children"><a [routerLink]="menu.path" class="drop-text">{{child.name}}</a></li>
+                              </ul>
+                            </ng-container>
+                          </li>
+                            <!-- <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li>
+                                <label for="drop-2" class="toggle toogle-2">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span>
+                                </label>
+                                <a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                <input type="checkbox" id="drop-2">
+                                <ul>
+                                    <li><a href="portfolio.html" class="drop-text">Portfolio</a></li>
+                                    <li><a href="single.html" class="drop-text">Blog Post</a></li>
+                                    <li><a href="index.html" class="drop-text">More</a></li>
+                                </ul>
+                            </li> -->
+                            <!-- <li><a href="contact.html">Contact</a></li> -->
+                            <li class="nav-right-sty mt-lg-0 mt-sm-4 mt-3">
+                                <a href="login.html" class="reqe-button text-uppercase">Login</a>
+                                <a href="register.html" class="reqe-button text-uppercase">Register</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- //nav -->
+            </div>
+        </div>
+    </header>
